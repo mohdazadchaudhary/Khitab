@@ -33,7 +33,5 @@ npm run dev
 npm run build
 ```
 
-## 📍 Key Components
-- **BaseMap**: Wrapper for Leaflet interactive maps.
-- **EnvelopeCard**: Animated card representing letters in transit.
-- **Editor**: Immersive writing environment for letters.
+---
+Created with ❤️ by **Antigravity with Mohd Azad Chaudhary**.

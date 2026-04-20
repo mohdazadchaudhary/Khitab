@@ -104,31 +104,37 @@ Khitab/
 
 ---
 
-## ⚙️ Setup & Installation
+## 🚀 How to Set Up & Run
 
-### Prerequisites
-- **Java 21** & Maven
+### 1. Prerequisites
+- **Java 21 LTS** & Maven
 - **Node.js** (v18+)
-- **Firebase Project**: Create a project in [Firebase Console](https://console.firebase.google.com/).
+- **Firebase Project**: Set up a project in the [Firebase Console](https://console.firebase.google.com/).
 
-### 1. Firebase Configuration
-1.  Enable **Firestore** and **Authentication** (Email/Password).
-2.  Generate a **Service Account Key** (JSON) and save it as `backend/src/main/resources/serviceAccountKey.json`.
-3.  Add your Firebase Web Config to `frontend/src/firebase/config.js`.
+### 2. Firebase Configuration
+1.  **Firestore**: Create a database in "Native mode".
+2.  **Auth**: Enable Email/Password provider.
+3.  **Service Account**: Go to Project Settings > Service Accounts > Generate new private key. Save it as `backend/src/main/resources/serviceAccountKey.json`.
+4.  **Web App**: Register a web app and copy the `firebaseConfig` object into `frontend/src/firebase/config.js`.
 
-### 2. Backend Setup
+### 3. Execution Process
+
+#### Step A: Start the Backend
+Open a terminal in the root directory and run:
 ```bash
 cd backend
-# The application.yml is already configured to find the serviceAccountKey.json
 mvn spring-boot:run
 ```
+The server will start on `http://localhost:8080`.
 
-### 3. Frontend Setup
+#### Step B: Start the Frontend
+Open a **new** terminal in the root directory and run:
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
+The application will be available at `http://localhost:5173`.
 
 ---
 
@@ -142,4 +148,4 @@ npm run dev
 ---
 
 ## 🖋️ License
-Created with ❤️ by Antigravity for the Digital Heirloom Community.
+Created with ❤️ by **Antigravity with Mohd Azad Chaudhary**.

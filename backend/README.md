@@ -30,8 +30,5 @@ The primary configuration is handled in `src/main/resources/application.yml`.
 mvn spring-boot:run
 ```
 
-## 📬 Core Endpoints
-- `POST /api/auth/register`: User profile synchronization.
-- `POST /api/letters/send`: Dispatch a new letter.
-- `GET /api/letters/mailbox`: Retrieve received letters.
-- `GET /api/letters/in-transit`: Track letters currently crossing the digital distance.
+---
+Created with ❤️ by **Antigravity with Mohd Azad Chaudhary**.
