@@ -34,4 +34,4 @@ npm run build
 ```
 
 ---
-Created with ❤️ by **Antigravity with Mohd Azad Chaudhary**.
+Created by **Mohd Azad Chaudhary**.
