@@ -1,16 +1,39 @@
-# React + Vite
+# Khitab Frontend — The Scriptorium
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the React-based web application for the Khitab platform. It is designed to provide a premium, "Digital Heirloom" drafting and reading experience.
 
-Currently, two official plugins are available:
+## 🎨 Design Philosophy
+- **Editorial Typography**: Uses `Noto Serif` for a traditional felt.
+- **Paper Aesthetics**: Custom textures and glassmorphism.
+- **Smooth Motion**: Framer Motion for cinematic transitions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Architecture
+The frontend follows a strict **MVVM (Model-View-ViewModel)** pattern:
+- **Views**: `/src/pages` — Clean UI components.
+- **ViewModels**: `/src/viewmodels` — Logic and state management using custom hooks.
+- **Models**: `/src/services` — API and Data access.
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Environment Configuration
+Ensure your Firebase configuration is set in `src/firebase/config.js`.
 
-## Expanding the ESLint configuration
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Development Mode
+```bash
+npm run dev
+```
+
+### 4. Build for Production
+```bash
+npm run build
+```
+
+## 📍 Key Components
+- **BaseMap**: Wrapper for Leaflet interactive maps.
+- **EnvelopeCard**: Animated card representing letters in transit.
+- **Editor**: Immersive writing environment for letters.
