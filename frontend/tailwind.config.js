@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        background: "#fdf9f1",
+        error: "#ba1a1a",
+        "error-container": "#ffdad6",
+        "inverse-on-surface": "#f4f0e8",
+        "inverse-primary": "#aecbd7",
+        "inverse-surface": "#31302b",
+        "on-background": "#1c1c17",
+        "on-error": "#ffffff",
+        "on-error-container": "#93000a",
+        "on-primary": "#ffffff",
+        "on-primary-container": "#c5e3ef",
+        "on-primary-fixed": "#001f27",
+        "on-primary-fixed-variant": "#2f4b54",
+        "on-secondary": "#ffffff",
+        "on-secondary-container": "#795c51",
+        "on-secondary-fixed": "#2b160f",
+        "on-secondary-fixed-variant": "#5b4137",
+        "on-surface": "#1c1c17",
+        "on-surface-variant": "#42484a",
+        "on-tertiary": "#ffffff",
+        "on-tertiary-container": "#dfdddc",
+        "on-tertiary-fixed": "#1c1b1b",
+        "on-tertiary-fixed-variant": "#474746",
+        outline: "#72787b",
+        "outline-variant": "#c2c7ca",
+        primary: "#324e58",
+        "primary-container": "#4a6670",
+        "primary-fixed": "#c9e7f3",
+        "primary-fixed-dim": "#aecbd7",
+        secondary: "#75584d",
+        "secondary-container": "#fed7ca",
+        "secondary-fixed": "#ffdbce",
+        "secondary-fixed-dim": "#e4beb2",
+        surface: "#fdf9f1",
+        "surface-bright": "#fdf9f1",
+        "surface-container": "#f1ede5",
+        "surface-container-high": "#ece8e0",
+        "surface-container-highest": "#e6e2da",
+        "surface-container-low": "#f7f3eb",
+        "surface-container-lowest": "#ffffff",
+        "surface-dim": "#dddad2",
+        "surface-tint": "#47636c",
+        "surface-variant": "#e6e2da",
+        tertiary: "#4a4949",
+        "tertiary-container": "#626161",
+        "tertiary-fixed": "#e5e2e1",
+        "tertiary-fixed-dim": "#c8c6c5"
+      },
+      fontFamily: {
+        serif: ['"Noto Serif"', "ui-serif", "Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
+        sans: ['"Manrope"', "ui-sans-serif", "system-ui", "-apple-system", "BlinkMacSystemFont", '"Segoe UI"', "Roboto", '"Helvetica Neue"', "Arial", "sans-serif"],
+      },
+      boxShadow: {
+        ambient: "0 20px 40px -10px rgba(28, 28, 23, 0.06)",
+        "ambient-lg": "0 30px 50px -12px rgba(28, 28, 23, 0.08)",
+      },
+      backgroundImage: {
+        'primary-radial': 'radial-gradient(circle at center, #324e58 0%, #4a6670 100%)',
+      }
+    },
+  },
+  plugins: [],
+};
