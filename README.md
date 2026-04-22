@@ -25,6 +25,26 @@ In an era of instant gratification, Khitab encourages emotional investment and p
 
 ---
 
+## 📸 Visual Showcase
+
+### 🛬 Landing Page
+The gateway to the "Slow-Tech" experience.
+![Khitab Landing](screenshots/landing.png)
+
+### 🗺️ Live Tracking & Dashboard
+Watch your letters travel across the globe in real-time.
+| In Transit (Tracking) | Inbox (The Desk) |
+| :---: | :---: |
+| ![Tracking Map](screenshots/tracking.png) | ![Dashboard Inbox](screenshots/dashboard.png) |
+
+### 🖋️ Scriptorium & Identity
+Compose letters in an immersive editor and manage your digital legacy.
+| Drafting a Letter | User Profile |
+| :---: | :---: |
+| ![Compose Screen](screenshots/compose.png) | ![Profile Screen](screenshots/profile.png) |
+
+---
+
 ## 🏗️ Architecture
 
 ### 2.1 System Overview
